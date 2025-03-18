@@ -1,0 +1,43 @@
+version: '3.8'
+
+services:
+  fhirserver:
+    image: ghcr.io/costateixeira/fhirserver:nightly
+    volumes:
+      - ./txcache:/var/cache/txcache
+      - ./config:/root/fhirserver/config
+    container_name: tx-fhir
+    expose:
+      - "80"
+    networks:
+      - fhir_network
+
+  nginx:
+    image: nginx:latest
+    container_name: tx-nginx
+    volumes:
+      - ./nginx:/etc/nginx/conf.d
+      - ./certbot/www:/var/www/certbot
+      - ./certbot/letsencrypt:/etc/letsencrypt
+    ports:
+      - "80:80"
+      - "443:443"
+    depends_on:
+      - fhirserver
+    networks:
+      - fhir_network
+    restart: unless-stopped
+
+  certbot:
+    image: certbot/certbot
+    container_name: tx-certbot
+    volumes:
+      - ./certbot/www:/var/www/certbot
+      - ./certbot/letsencrypt:/etc/letsencrypt
+    entrypoint: "/bin/sh -c 'trap exit TERM; while :; do certbot renew --webroot -w /var/www/certbot --quiet && nginx -s reload; sleep 12h & wait $${!}; done'"
+    networks:
+      - fhir_network
+
+networks:
+  fhir_network:
+    driver: bridge

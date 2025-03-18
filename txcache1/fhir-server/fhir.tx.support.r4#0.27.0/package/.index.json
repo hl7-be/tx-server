@@ -1,0 +1,337 @@
+{
+  "files" : [
+    {
+      "filename" : "CodeSystem-iso3166.json",
+      "resourceType" : "CodeSystem",
+      "id" : "iso-3166",
+      "url" : "urn:iso:std:iso:3166",
+      "version" : "20210120",
+      "content" : "complete"
+    },
+    {
+      "filename" : "time-zones.json",
+      "resourceType" : "CodeSystem",
+      "id" : "time-zones",
+      "url" : "https://www.iana.org/time-zones",
+      "version" : "20210124",
+      "content" : "complete",
+      "valueSet" : "http://hl7.org/fhir/ValueSet/timezones"
+    },
+    {
+      "filename" : "ConceptMap-resource-names-r2-r4.json",
+      "resourceType" : "ConceptMap",
+      "id" : "resource-names-r2-r4",
+      "url" : "http://hl7.org/fhir/resource-names-r2-r4"
+    },
+    {
+      "filename" : "CodeSystem-mvx.json",
+      "resourceType" : "CodeSystem",
+      "id" : "mvx",
+      "url" : "http://hl7.org/fhir/sid/mvx",
+      "version" : "20201030",
+      "content" : "complete"
+    },
+    {
+      "filename" : "CodeSystem-CAPeCP.json",
+      "resourceType" : "CodeSystem",
+      "id" : "CAPeCP",
+      "url" : "http://cap.org/eCP",
+      "version" : "4.000.001",
+      "content" : "fragment"
+    },
+    {
+      "filename" : "CodeSystem-icd-9-cm.json",
+      "resourceType" : "CodeSystem",
+      "id" : "icd-9-cm",
+      "url" : "http://hl7.org/fhir/sid/icd-9-cm",
+      "version" : "2015",
+      "content" : "fragment"
+    },
+    {
+      "filename" : "ValueSet-MDC-dimension.json",
+      "resourceType" : "ValueSet",
+      "id" : "MDC-dimension",
+      "url" : "http://devices.fhir.org/ValueSet/MDC-dimension",
+      "version" : "0.1.0"
+    },
+    {
+      "filename" : "ValueSet-allergy-intolerance-substance-product-snomed-extended-uv-ips.json",
+      "resourceType" : "ValueSet",
+      "id" : "allergy-intolerance-substance-product-snomed-extended-uv-ips",
+      "url" : "http://hl7.org/fhir/uv/ips/ValueSet/allergy-intolerance-substance-product-snomed-extended-uv-ips",
+      "version" : "1.0.0"
+    },
+    {
+      "filename" : "CodeSystem-nciThesaurus-fragment.json",
+      "resourceType" : "CodeSystem",
+      "id" : "v3-nciThesaurus",
+      "url" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+      "content" : "fragment"
+    },
+    {
+      "filename" : "CodeSystem-icd-10.json",
+      "resourceType" : "CodeSystem",
+      "id" : "icd10-2019",
+      "url" : "http://hl7.org/fhir/sid/icd-10",
+      "version" : "2019-covid-expanded",
+      "content" : "complete",
+      "valueSet" : "http://hl7.org/fhir/sid/icd-10/vs"
+    },
+    {
+      "filename" : "CodeSystem-icd-o-3.json",
+      "resourceType" : "CodeSystem",
+      "id" : "icd-o-3",
+      "url" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+      "version" : "2000",
+      "content" : "fragment"
+    },
+    {
+      "filename" : "CodeSystem-MDC-designation-use.json",
+      "resourceType" : "CodeSystem",
+      "id" : "MDC-designation-use",
+      "url" : "http://devices.fhir.org/CodeSystem/MDC-designation-use",
+      "content" : "complete"
+    },
+    {
+      "filename" : "CodeSystem-2.16.840.1.113883.3.1937.98.5.8.json",
+      "resourceType" : "CodeSystem",
+      "id" : "2.16.840.1.113883.3.1937.98.5.8",
+      "url" : "urn:oid:2.16.840.1.113883.3.1937.98.5.8",
+      "content" : "complete",
+      "valueSet" : "urn:oid:2.16.840.1.113883.3.1937.98.11.8"
+    },
+    {
+      "filename" : "ValueSet-covid-19-obs.json",
+      "resourceType" : "ValueSet",
+      "id" : "covid-19-obs",
+      "url" : "http://hl7.org/fhir/ValueSet/covid-19-obs",
+      "version" : "0.0.1"
+    },
+    {
+      "filename" : "CodeSystem-isco.json",
+      "resourceType" : "CodeSystem",
+      "id" : "isco",
+      "url" : "urn:oid:2.16.840.1.113883.2.9.6.2.7",
+      "version" : "ISCO-08",
+      "content" : "fragment"
+    },
+    {
+      "filename" : "ConceptMap-resource-names-r2-r3.json",
+      "resourceType" : "ConceptMap",
+      "id" : "resource-names-r2-r3",
+      "url" : "http://hl7.org/fhir/resource-names-r2-r3"
+    },
+    {
+      "filename" : "ValueSet-covid-19-cond.json",
+      "resourceType" : "ValueSet",
+      "id" : "covid-19-cond",
+      "url" : "http://hl7.org/fhir/ValueSet/covid-19-cond",
+      "version" : "0.0.1"
+    },
+    {
+      "filename" : "ValueSet-MDC-partition.json",
+      "resourceType" : "ValueSet",
+      "id" : "MDC-partition",
+      "url" : "http://devices.fhir.org/ValueSet/MDC-partition",
+      "version" : "0.1.0"
+    },
+    {
+      "filename" : "ValueSet-snomed-intl-gps.json",
+      "resourceType" : "ValueSet",
+      "id" : "snomed-intl-gps",
+      "url" : "http://terminology.hl7.org/ValueSet/snomed-intl-gps",
+      "version" : "20200930"
+    },
+    {
+      "filename" : "ValueSet-MDC.json",
+      "resourceType" : "ValueSet",
+      "id" : "MDC",
+      "url" : "http://devices.fhir.org/ValueSet/MDC",
+      "version" : "0.1.0"
+    },
+    {
+      "filename" : "CodeSystem-icd-10-cm.json",
+      "resourceType" : "CodeSystem",
+      "id" : "icd-10-cm",
+      "url" : "http://hl7.org/fhir/sid/icd-10-cm",
+      "version" : "2024",
+      "content" : "complete"
+    },
+    {
+      "filename" : "CodeSystem-AIR.json",
+      "resourceType" : "CodeSystem",
+      "id" : "australian-immunisation-register-vaccine-20210222",
+      "url" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats",
+      "version" : "20210222",
+      "content" : "complete",
+      "valueSet" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats/vs"
+    },
+    {
+      "filename" : "CodeSystem-iso3166-2.json",
+      "resourceType" : "CodeSystem",
+      "id" : "isso3166-2",
+      "url" : "urn:iso:std:iso:3166:-2",
+      "version" : "2021",
+      "content" : "complete"
+    },
+    {
+      "filename" : "ConceptMap-resource-names-r3-r4.json",
+      "resourceType" : "ConceptMap",
+      "id" : "resource-names-r3-r4",
+      "url" : "http://hl7.org/fhir/resource-names-r3-r4"
+    },
+    {
+      "filename" : "CodeSystem-edqm.json",
+      "resourceType" : "CodeSystem",
+      "id" : "edqm",
+      "url" : "http://standardterms.edqm.eu",
+      "version" : "5 March 2019",
+      "content" : "complete"
+    },
+    {
+      "filename" : "CodeSystem-icf.json",
+      "resourceType" : "CodeSystem",
+      "id" : "icf",
+      "url" : "http://id.who.int/icd/release/11/beta/icf",
+      "version" : "2023-06"
+    },
+    {
+      "filename" : "CodeSystem-MDC-concept-status.json",
+      "resourceType" : "CodeSystem",
+      "id" : "MDC-concept-status",
+      "url" : "http://devices.fhir.org/CodeSystem/MDC-concept-status",
+      "content" : "complete"
+    },
+    {
+      "filename" : "ValueSet-snomed-intl-ips.json",
+      "resourceType" : "ValueSet",
+      "id" : "snomed-intl-ips",
+      "url" : "http://terminology.hl7.org/ValueSet/snomed-intl-ips",
+      "version" : "20211027"
+    },
+    {
+      "filename" : "CodeSystem-atc.json",
+      "resourceType" : "CodeSystem",
+      "id" : "atc",
+      "url" : "http://www.whocc.no/atc",
+      "version" : "2020-05",
+      "content" : "complete"
+    },
+    {
+      "filename" : "CodeSystem-radlex.json",
+      "resourceType" : "CodeSystem",
+      "url" : "http://radlex.org",
+      "version" : "4.1.0",
+      "content" : "complete"
+    },
+    {
+      "filename" : "ValueSet-MDC-metric.json",
+      "resourceType" : "ValueSet",
+      "id" : "MDC-metric",
+      "url" : "http://devices.fhir.org/ValueSet/MDC-metric",
+      "version" : "0.1.0"
+    },
+    {
+      "filename" : "CodeSystem-hl7-format-codes.json",
+      "resourceType" : "CodeSystem",
+      "id" : "hl7-document-format-codes",
+      "url" : "http://terminology.hl7.org/CodeSystem/hl7-document-format-codes",
+      "version" : "1.0.0",
+      "content" : "complete"
+    },
+    {
+      "filename" : "ConceptMap-resource-names-r4-r2.json",
+      "resourceType" : "ConceptMap",
+      "id" : "resource-names-r4-r2",
+      "url" : "http://hl7.org/fhir/resource-names-r4-r2"
+    },
+    {
+      "filename" : "CodeSystem-MDC.json",
+      "resourceType" : "CodeSystem",
+      "id" : "MDC",
+      "url" : "urn:iso:std:iso:11073:10101",
+      "version" : "2023-04-26",
+      "content" : "complete"
+    },
+    {
+      "filename" : "CodeSystem-cvx.json",
+      "resourceType" : "CodeSystem",
+      "id" : "cvx",
+      "url" : "http://hl7.org/fhir/sid/cvx",
+      "version" : "20231214",
+      "content" : "complete"
+    },
+    {
+      "filename" : "ValueSet-allergy-intolerance-substance-product-gps-uv-ips.json",
+      "resourceType" : "ValueSet",
+      "id" : "allergy-intolerance-substance-product-gps-uv-ips",
+      "url" : "http://hl7.org/fhir/uv/ips/ValueSet/allergy-intolerance-substance-product-gps-uv-ips",
+      "version" : "1.0.0"
+    },
+    {
+      "filename" : "ConceptMap-resource-names-r3-r2.json",
+      "resourceType" : "ConceptMap",
+      "id" : "resource-names-r3-r2",
+      "url" : "http://hl7.org/fhir/resource-names-r3-r2"
+    },
+    {
+      "filename" : "ValueSet-jurisdiction-common.json",
+      "resourceType" : "ValueSet",
+      "id" : "jurisdiction-common",
+      "url" : "http://hl7.org/fhir/ValueSet/jurisdiction-common",
+      "version" : "0.1.0"
+    },
+    {
+      "filename" : "CodeSystem-icd10PCS.json",
+      "resourceType" : "CodeSystem",
+      "id" : "icd10PCS",
+      "url" : "http://www.cms.gov/Medicare/Coding/ICD10",
+      "version" : "2.0.1",
+      "content" : "complete"
+    },
+    {
+      "filename" : "CodeSystem-usps.json",
+      "resourceType" : "CodeSystem",
+      "id" : "usps",
+      "url" : "https://www.usps.com/",
+      "content" : "complete"
+    },
+    {
+      "filename" : "ValueSet-loinc-rsna-radiology-playbook.json",
+      "resourceType" : "ValueSet",
+      "id" : "loinc-rsna-radiology-playbook",
+      "url" : "http://loinc.org/vs/loinc-rsna-radiology-playbook"
+    },
+    {
+      "filename" : "ConceptMap-resource-names-r4-r3.json",
+      "resourceType" : "ConceptMap",
+      "id" : "resource-names-r4-r3",
+      "url" : "http://hl7.org/fhir/resource-names-r4-r3"
+    },
+    {
+      "filename" : "ValueSet-MDC-object.json",
+      "resourceType" : "ValueSet",
+      "id" : "MDC-object",
+      "url" : "http://devices.fhir.org/ValueSet/MDC-object",
+      "version" : "0.1.0"
+    },
+    {
+      "filename" : "CodeSystem-spdx.json",
+      "resourceType" : "CodeSystem",
+      "id" : "spdx-license",
+      "url" : "http://hl7.org/fhir/spdx-license",
+      "version" : "84728b7",
+      "content" : "complete",
+      "valueSet" : "http://hl7.org/fhir/ValueSet/spdx-license"
+    },
+    {
+      "filename" : "CodeSystem-nucc-provider-taxonomy.json",
+      "resourceType" : "CodeSystem",
+      "id" : "nucc-provider-taxonomy",
+      "url" : "http://nucc.org/provider-taxonomy",
+      "version" : "22.1",
+      "content" : "complete",
+      "valueSet" : "http://hl7.org/fhir/ValueSet/nucc-provider-taxonomy"
+    }
+  ]
+}

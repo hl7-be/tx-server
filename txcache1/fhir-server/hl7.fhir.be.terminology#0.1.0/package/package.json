@@ -1,0 +1,28 @@
+{
+  "name" : "hl7.fhir.be.terminology",
+  "version" : "0.1.0",
+  "tools-version" : 3,
+  "type" : "IG",
+  "date" : "20250318183810",
+  "license" : "CC0-1.0",
+  "canonical" : "https://www.ehealth.fgov.be/standards/fhir/terminology",
+  "notForPublication" : true,
+  "url" : "file://C:\\work\\caresets\\txpackage\\output",
+  "fhirVersions" : ["4.0.1"],
+  "dependencies" : {
+    "hl7.fhir.r4.core" : "4.0.1",
+    "hl7.terminology.r4" : "6.2.0",
+    "hl7.fhir.uv.extensions.r4" : "5.2.0"
+  },
+  "author" : "Example Publisher",
+  "maintainers" : [
+    {
+      "name" : "Example Publisher",
+      "url" : "http://example.org/example-publisher"
+    }
+  ],
+  "directories" : {
+    "lib" : "package",
+    "example" : "example"
+  }
+}

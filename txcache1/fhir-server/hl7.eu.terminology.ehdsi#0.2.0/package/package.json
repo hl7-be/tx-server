@@ -1,0 +1,30 @@
+{
+  "name" : "hl7.eu.terminology.ehdsi",
+  "version" : "0.2.0",
+  "tools-version" : 3,
+  "type" : "IG",
+  "date" : "20250208064102",
+  "license" : "CC0-1.0",
+  "canonical" : "http://hl7europe.org/fhir/terminology/ehdsi",
+  "notForPublication" : true,
+  "url" : "file://C:\\work\\Tx.HL7Europe.eu\\hl7.eu.terminology.ehdsi\\output",
+  "title" : "eHDSI Terminologies",
+  "description" : "Implementation Guide for the EU eHDSI package. (built Sat, Feb 8, 2025 06:41+0100+01:00)",
+  "fhirVersions" : ["4.0.1"],
+  "dependencies" : {
+    "hl7.fhir.r4.core" : "4.0.1",
+    "hl7.terminology.r4" : "6.2.0",
+    "hl7.fhir.uv.extensions.r4" : "5.1.0"
+  },
+  "author" : "HL7 Europe",
+  "maintainers" : [
+    {
+      "name" : "HL7 Europe",
+      "url" : "http://hl7europe.org"
+    }
+  ],
+  "directories" : {
+    "lib" : "package",
+    "example" : "example"
+  }
+}

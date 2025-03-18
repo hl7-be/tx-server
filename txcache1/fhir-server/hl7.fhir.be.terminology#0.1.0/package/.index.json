@@ -1,0 +1,330 @@
+{
+  "index-version" : 2,
+  "files" : [
+    {
+      "filename" : "ImplementationGuide-hl7.fhir.be.terminology.json",
+      "resourceType" : "ImplementationGuide",
+      "id" : "hl7.fhir.be.terminology",
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ImplementationGuide/hl7.fhir.be.terminology",
+      "version" : "0.1.0"
+    },
+    {
+      "filename" : "CodeSystem-be-cs-bodysite.json",
+      "resourceType" : "CodeSystem",
+      "id" : "be-cs-bodysite",
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/CodeSystem/be-cs-bodysite",
+      "version" : "0.1.0",
+      "content" : "complete"
+    },
+    {
+      "filename" : "CodeSystem-be-cs-care-location.json",
+      "resourceType" : "CodeSystem",
+      "id" : "be-cs-care-location",
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/CodeSystem/be-cs-care-location",
+      "version" : "0.1.0",
+      "content" : "complete"
+    },
+    {
+      "filename" : "CodeSystem-be-cs-medication-request-reimbursement-type.json",
+      "resourceType" : "CodeSystem",
+      "id" : "be-cs-medication-request-reimbursement-type",
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/CodeSystem/be-cs-medication-request-reimbursement-type",
+      "version" : "0.1.0",
+      "content" : "complete"
+    },
+    {
+      "filename" : "CodeSystem-be-cs-problem-category.json",
+      "resourceType" : "CodeSystem",
+      "id" : "be-cs-problem-category",
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/CodeSystem/be-cs-problem-category",
+      "version" : "0.1.0",
+      "content" : "complete"
+    },
+    {
+      "filename" : "CodeSystem-be-cs-problem-origin-type.json",
+      "resourceType" : "CodeSystem",
+      "id" : "be-cs-problem-origin-type",
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/CodeSystem/be-cs-problem-origin-type",
+      "version" : "0.1.0",
+      "content" : "complete"
+    },
+    {
+      "filename" : "CodeSystem-be-cs-score-category.json",
+      "resourceType" : "CodeSystem",
+      "id" : "be-cs-score-category",
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/CodeSystem/be-cs-score-category",
+      "version" : "0.1.0",
+      "content" : "complete"
+    },
+    {
+      "filename" : "CodeSystem-be-cs-score.json",
+      "resourceType" : "CodeSystem",
+      "id" : "be-cs-score",
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/CodeSystem/be-cs-score",
+      "version" : "0.1.0",
+      "content" : "complete"
+    },
+    {
+      "filename" : "CodeSystem-be-cs-vaccination-administration-route.json",
+      "resourceType" : "CodeSystem",
+      "id" : "be-cs-vaccination-administration-route",
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/CodeSystem/be-cs-vaccination-administration-route",
+      "version" : "0.1.0",
+      "content" : "complete"
+    },
+    {
+      "filename" : "CodeSystem-be-cs-vaccination-confirmation-status.json",
+      "resourceType" : "CodeSystem",
+      "id" : "be-cs-vaccination-confirmation-status",
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/CodeSystem/be-cs-vaccination-confirmation-status",
+      "version" : "0.1.0",
+      "content" : "complete"
+    },
+    {
+      "filename" : "CodeSystem-be-cs-vaccination-status-reason.json",
+      "resourceType" : "CodeSystem",
+      "id" : "be-cs-vaccination-status-reason",
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/CodeSystem/be-cs-vaccination-status-reason",
+      "version" : "0.1.0",
+      "content" : "complete"
+    },
+    {
+      "filename" : "CodeSystem-be-cs-vaccine-code.json",
+      "resourceType" : "CodeSystem",
+      "id" : "be-cs-vaccine-code",
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/CodeSystem/be-cs-vaccine-code",
+      "version" : "0.1.0",
+      "content" : "complete"
+    },
+    {
+      "filename" : "CodeSystem-be-cs-vaccine-target-disease.json",
+      "resourceType" : "CodeSystem",
+      "id" : "be-cs-vaccine-target-disease",
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/CodeSystem/be-cs-vaccine-target-disease",
+      "version" : "0.1.0",
+      "content" : "complete"
+    },
+    {
+      "filename" : "CodeSystem-cd-civilstate.json",
+      "resourceType" : "CodeSystem",
+      "id" : "cd-civilstate",
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/CodeSystem/cd-civilstate",
+      "version" : "0.1.0",
+      "content" : "complete"
+    },
+    {
+      "filename" : "CodeSystem-cd-contact-person.json",
+      "resourceType" : "CodeSystem",
+      "id" : "cd-contact-person",
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/CodeSystem/cd-contact-person",
+      "version" : "0.1.0",
+      "content" : "complete"
+    },
+    {
+      "filename" : "CodeSystem-cd-fed-country.json",
+      "resourceType" : "CodeSystem",
+      "id" : "cd-fed-country",
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/CodeSystem/cd-fed-country",
+      "version" : "0.1.0",
+      "content" : "fragment"
+    },
+    {
+      "filename" : "CodeSystem-cd-hcparty.json",
+      "resourceType" : "CodeSystem",
+      "id" : "cd-hcparty",
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/CodeSystem/cd-hcparty",
+      "version" : "0.1.0",
+      "content" : "complete"
+    },
+    {
+      "filename" : "CodeSystem-medication-line-origin-type.json",
+      "resourceType" : "CodeSystem",
+      "id" : "medication-line-origin-type",
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/CodeSystem/medication-line-origin-type",
+      "version" : "0.1.0",
+      "content" : "complete"
+    },
+    {
+      "filename" : "ValueSet-be-allergyintolerancecode.json",
+      "resourceType" : "ValueSet",
+      "id" : "be-allergyintolerancecode",
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-allergyintolerancecode",
+      "version" : "0.1.0"
+    },
+    {
+      "filename" : "ValueSet-be-civilstate.json",
+      "resourceType" : "ValueSet",
+      "id" : "be-civilstate",
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/core/ValueSet/be-civilstate",
+      "version" : "0.1.0"
+    },
+    {
+      "filename" : "ValueSet-be-vs-allergyintolerance-type.json",
+      "resourceType" : "ValueSet",
+      "id" : "be-vs-allergyintolerance-type",
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-allergyintolerance-type",
+      "version" : "0.1.0"
+    },
+    {
+      "filename" : "ValueSet-be-vs-bodysite.json",
+      "resourceType" : "ValueSet",
+      "id" : "be-vs-bodysite",
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-bodysite",
+      "version" : "0.1.0"
+    },
+    {
+      "filename" : "ValueSet-be-vs-care-location.json",
+      "resourceType" : "ValueSet",
+      "id" : "be-vs-care-location",
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-care-location",
+      "version" : "0.1.0"
+    },
+    {
+      "filename" : "ValueSet-be-vs-cd-hcparty.json",
+      "resourceType" : "ValueSet",
+      "id" : "be-vs-cd-hcparty",
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-cd-hcparty",
+      "version" : "0.1.0"
+    },
+    {
+      "filename" : "ValueSet-be-vs-gender-at-birth.json",
+      "resourceType" : "ValueSet",
+      "id" : "be-vs-gender-at-birth",
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-gender-at-birth",
+      "version" : "0.1.0"
+    },
+    {
+      "filename" : "ValueSet-be-vs-laterality.json",
+      "resourceType" : "ValueSet",
+      "id" : "be-vs-laterality",
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-laterality",
+      "version" : "0.1.0"
+    },
+    {
+      "filename" : "ValueSet-be-vs-medication-request-reimbursement-type.json",
+      "resourceType" : "ValueSet",
+      "id" : "be-vs-medication-request-reimbursement-type",
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-medication-request-reimbursement-type",
+      "version" : "0.1.0"
+    },
+    {
+      "filename" : "ValueSet-be-vs-patient-relationship-type.json",
+      "resourceType" : "ValueSet",
+      "id" : "be-vs-patient-relationship-type",
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-patient-relationship-type",
+      "version" : "0.1.0"
+    },
+    {
+      "filename" : "ValueSet-be-vs-problem-category.json",
+      "resourceType" : "ValueSet",
+      "id" : "be-vs-problem-category",
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-problem-category",
+      "version" : "0.1.0"
+    },
+    {
+      "filename" : "ValueSet-be-vs-problem-code.json",
+      "resourceType" : "ValueSet",
+      "id" : "be-vs-problem-code",
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-problem-code",
+      "version" : "0.1.0"
+    },
+    {
+      "filename" : "ValueSet-be-vs-problem-origin-type.json",
+      "resourceType" : "ValueSet",
+      "id" : "be-vs-problem-origin-type",
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-problem-origin-type",
+      "version" : "0.1.0"
+    },
+    {
+      "filename" : "ValueSet-be-vs-reaction-manifestation-code.json",
+      "resourceType" : "ValueSet",
+      "id" : "be-vs-reaction-manifestation-code",
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-reaction-manifestation-code",
+      "version" : "0.1.0"
+    },
+    {
+      "filename" : "ValueSet-be-vs-score.json",
+      "resourceType" : "ValueSet",
+      "id" : "be-vs-score",
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-score",
+      "version" : "0.1.0"
+    },
+    {
+      "filename" : "ValueSet-be-vs-scorecategory.json",
+      "resourceType" : "ValueSet",
+      "id" : "be-vs-scorecategory",
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-scorecategory",
+      "version" : "0.1.0"
+    },
+    {
+      "filename" : "ValueSet-be-vs-vaccination-administration-route.json",
+      "resourceType" : "ValueSet",
+      "id" : "be-vs-vaccination-administration-route",
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-vaccination-administration-route",
+      "version" : "0.1.0"
+    },
+    {
+      "filename" : "ValueSet-be-vs-vaccination-bodysite.json",
+      "resourceType" : "ValueSet",
+      "id" : "be-vs-vaccination-bodysite",
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-vaccination-bodysite",
+      "version" : "0.1.0"
+    },
+    {
+      "filename" : "ValueSet-be-vs-vaccination-confirmation-status.json",
+      "resourceType" : "ValueSet",
+      "id" : "be-vs-vaccination-confirmation-status",
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-vaccination-confirmation-status",
+      "version" : "0.1.0"
+    },
+    {
+      "filename" : "ValueSet-be-vs-vaccination-product.json",
+      "resourceType" : "ValueSet",
+      "id" : "be-vs-vaccination-product",
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-vaccination-product",
+      "version" : "0.1.0"
+    },
+    {
+      "filename" : "ValueSet-be-vs-vaccination-reason-code.json",
+      "resourceType" : "ValueSet",
+      "id" : "be-vs-vaccination-reason-code",
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-vaccination-reason-code",
+      "version" : "0.1.0"
+    },
+    {
+      "filename" : "ValueSet-be-vs-vaccination-status-reason.json",
+      "resourceType" : "ValueSet",
+      "id" : "be-vs-vaccination-status-reason",
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-vaccination-status-reason",
+      "version" : "0.1.0"
+    },
+    {
+      "filename" : "ValueSet-be-vs-vaccine-code.json",
+      "resourceType" : "ValueSet",
+      "id" : "be-vs-vaccine-code",
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-vaccine-code",
+      "version" : "0.1.0"
+    },
+    {
+      "filename" : "ValueSet-be-vs-vaccine-target-disease.json",
+      "resourceType" : "ValueSet",
+      "id" : "be-vs-vaccine-target-disease",
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-vaccine-target-disease",
+      "version" : "0.1.0"
+    },
+    {
+      "filename" : "ValueSet-medication-exposure-category-vs.json",
+      "resourceType" : "ValueSet",
+      "id" : "medication-exposure-category-vs",
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/medication-exposure-category-vs",
+      "version" : "0.1.0"
+    },
+    {
+      "filename" : "ValueSet-medication-line-origin-type-vs.json",
+      "resourceType" : "ValueSet",
+      "id" : "medication-line-origin-type-vs",
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/medication-line-origin-type-vs",
+      "version" : "0.1.0"
+    }
+  ]
+}

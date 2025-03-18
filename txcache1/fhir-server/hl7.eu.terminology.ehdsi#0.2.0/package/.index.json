@@ -1,0 +1,440 @@
+{
+  "index-version" : 2,
+  "files" : [
+    {
+      "filename" : "ImplementationGuide-hl7.eu.terminology.ehdsi.json",
+      "resourceType" : "ImplementationGuide",
+      "id" : "hl7.eu.terminology.ehdsi",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ImplementationGuide/hl7.eu.terminology.ehdsi",
+      "version" : "0.2.0"
+    },
+    {
+      "filename" : "CodeSystem-edqm-all.json",
+      "resourceType" : "CodeSystem",
+      "id" : "edqm-all",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/CodeSystem/edqm-all",
+      "version" : "0.2.0",
+      "content" : "complete"
+    },
+    {
+      "filename" : "ValueSet-eHDSIActiveIngredient.json",
+      "resourceType" : "ValueSet",
+      "id" : "eHDSIActiveIngredient",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIActiveIngredient",
+      "version" : "0.2.0"
+    },
+    {
+      "filename" : "ValueSet-eHDSIAdverseEventType.json",
+      "resourceType" : "ValueSet",
+      "id" : "eHDSIAdverseEventType",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIAdverseEventType",
+      "version" : "0.2.0"
+    },
+    {
+      "filename" : "ValueSet-eHDSIAllergenNoDrug.json",
+      "resourceType" : "ValueSet",
+      "id" : "eHDSIAllergenNoDrug",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIAllergenNoDrug",
+      "version" : "0.2.0"
+    },
+    {
+      "filename" : "ValueSet-eHDSIAllergyCertainty.json",
+      "resourceType" : "ValueSet",
+      "id" : "eHDSIAllergyCertainty",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIAllergyCertainty",
+      "version" : "0.2.0"
+    },
+    {
+      "filename" : "ValueSet-eHDSIAllergyStatus.json",
+      "resourceType" : "ValueSet",
+      "id" : "eHDSIAllergyStatus",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIAllergyStatus",
+      "version" : "0.2.0"
+    },
+    {
+      "filename" : "ValueSet-eHDSIAnimalSpecies.json",
+      "resourceType" : "ValueSet",
+      "id" : "eHDSIAnimalSpecies",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIAnimalSpecies",
+      "version" : "0.2.0"
+    },
+    {
+      "filename" : "ValueSet-eHDSIBloodGroup.json",
+      "resourceType" : "ValueSet",
+      "id" : "eHDSIBloodGroup",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIBloodGroup",
+      "version" : "0.2.0"
+    },
+    {
+      "filename" : "ValueSet-eHDSIBloodPressure.json",
+      "resourceType" : "ValueSet",
+      "id" : "eHDSIBloodPressure",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIBloodPressure",
+      "version" : "0.2.0"
+    },
+    {
+      "filename" : "ValueSet-eHDSIBodySite.json",
+      "resourceType" : "ValueSet",
+      "id" : "eHDSIBodySite",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIBodySite",
+      "version" : "0.2.0"
+    },
+    {
+      "filename" : "ValueSet-eHDSIBodySiteLaterality.json",
+      "resourceType" : "ValueSet",
+      "id" : "eHDSIBodySiteLaterality",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIBodySiteLaterality",
+      "version" : "0.2.0"
+    },
+    {
+      "filename" : "ValueSet-eHDSIBodyStructureLocation.json",
+      "resourceType" : "ValueSet",
+      "id" : "eHDSIBodyStructureLocation",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIBodyStructureLocation",
+      "version" : "0.2.0"
+    },
+    {
+      "filename" : "ValueSet-eHDSICertainty.json",
+      "resourceType" : "ValueSet",
+      "id" : "eHDSICertainty",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSICertainty",
+      "version" : "0.2.0"
+    },
+    {
+      "filename" : "ValueSet-eHDSICodeProb.json",
+      "resourceType" : "ValueSet",
+      "id" : "eHDSICodeProb",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSICodeProb",
+      "version" : "0.2.0"
+    },
+    {
+      "filename" : "ValueSet-eHDSICountry.json",
+      "resourceType" : "ValueSet",
+      "id" : "eHDSICountry",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSICountry",
+      "version" : "0.2.0"
+    },
+    {
+      "filename" : "ValueSet-eHDSICriticality.json",
+      "resourceType" : "ValueSet",
+      "id" : "eHDSICriticality",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSICriticality",
+      "version" : "0.2.0"
+    },
+    {
+      "filename" : "ValueSet-eHDSICurrentPregnancyStatus.json",
+      "resourceType" : "ValueSet",
+      "id" : "eHDSICurrentPregnancyStatus",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSICurrentPregnancyStatus",
+      "version" : "0.2.0"
+    },
+    {
+      "filename" : "ValueSet-eHDSIDisplayLabel.json",
+      "resourceType" : "ValueSet",
+      "id" : "eHDSIDisplayLabel",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIDisplayLabel",
+      "version" : "0.2.0"
+    },
+    {
+      "filename" : "ValueSet-eHDSIDocumentCode.json",
+      "resourceType" : "ValueSet",
+      "id" : "eHDSIDocumentCode",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIDocumentCode",
+      "version" : "0.2.0"
+    },
+    {
+      "filename" : "ValueSet-eHDSIDoseForm.json",
+      "resourceType" : "ValueSet",
+      "id" : "eHDSIDoseForm",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIDoseForm",
+      "version" : "0.2.0"
+    },
+    {
+      "filename" : "ValueSet-eHDSIExceptionalValue.json",
+      "resourceType" : "ValueSet",
+      "id" : "eHDSIExceptionalValue",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIExceptionalValue",
+      "version" : "0.2.0"
+    },
+    {
+      "filename" : "ValueSet-eHDSIHealthcareProfessionalRole.json",
+      "resourceType" : "ValueSet",
+      "id" : "eHDSIHealthcareProfessionalRole",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIHealthcareProfessionalRole",
+      "version" : "0.2.0"
+    },
+    {
+      "filename" : "ValueSet-eHDSIHospitalDischargeReportType.json",
+      "resourceType" : "ValueSet",
+      "id" : "eHDSIHospitalDischargeReportType",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIHospitalDischargeReportType",
+      "version" : "0.2.0"
+    },
+    {
+      "filename" : "ValueSet-eHDSIIllnessandDisorder.json",
+      "resourceType" : "ValueSet",
+      "id" : "eHDSIIllnessandDisorder",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIIllnessandDisorder",
+      "version" : "0.2.0"
+    },
+    {
+      "filename" : "ValueSet-eHDSILabCode.json",
+      "resourceType" : "ValueSet",
+      "id" : "eHDSILabCode",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSILabCode",
+      "version" : "0.2.0"
+    },
+    {
+      "filename" : "ValueSet-eHDSILabSpecimenType.json",
+      "resourceType" : "ValueSet",
+      "id" : "eHDSILabSpecimenType",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSILabSpecimenType",
+      "version" : "0.2.0"
+    },
+    {
+      "filename" : "ValueSet-eHDSILabStudyType.json",
+      "resourceType" : "ValueSet",
+      "id" : "eHDSILabStudyType",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSILabStudyType",
+      "version" : "0.2.0"
+    },
+    {
+      "filename" : "ValueSet-eHDSILabTechnique.json",
+      "resourceType" : "ValueSet",
+      "id" : "eHDSILabTechnique",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSILabTechnique",
+      "version" : "0.2.0"
+    },
+    {
+      "filename" : "ValueSet-eHDSILaboratoryReportType.json",
+      "resourceType" : "ValueSet",
+      "id" : "eHDSILaboratoryReportType",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSILaboratoryReportType",
+      "version" : "0.2.0"
+    },
+    {
+      "filename" : "ValueSet-eHDSILanguage.json",
+      "resourceType" : "ValueSet",
+      "id" : "eHDSILanguage",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSILanguage",
+      "version" : "0.2.0"
+    },
+    {
+      "filename" : "ValueSet-eHDSIMedicalDevice.json",
+      "resourceType" : "ValueSet",
+      "id" : "eHDSIMedicalDevice",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIMedicalDevice",
+      "version" : "0.2.0"
+    },
+    {
+      "filename" : "ValueSet-eHDSIMedicalImagingReportType.json",
+      "resourceType" : "ValueSet",
+      "id" : "eHDSIMedicalImagingReportType",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIMedicalImagingReportType",
+      "version" : "0.2.0"
+    },
+    {
+      "filename" : "ValueSet-eHDSIMicroorganism.json",
+      "resourceType" : "ValueSet",
+      "id" : "eHDSIMicroorganism",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIMicroorganism",
+      "version" : "0.2.0"
+    },
+    {
+      "filename" : "ValueSet-eHDSIMorphologicAbnormality.json",
+      "resourceType" : "ValueSet",
+      "id" : "eHDSIMorphologicAbnormality",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIMorphologicAbnormality",
+      "version" : "0.2.0"
+    },
+    {
+      "filename" : "ValueSet-eHDSIObservationCategory.json",
+      "resourceType" : "ValueSet",
+      "id" : "eHDSIObservationCategory",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIObservationCategory",
+      "version" : "0.2.0"
+    },
+    {
+      "filename" : "ValueSet-eHDSIObservationInterpretation.json",
+      "resourceType" : "ValueSet",
+      "id" : "eHDSIObservationInterpretation",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIObservationInterpretation",
+      "version" : "0.2.0"
+    },
+    {
+      "filename" : "ValueSet-eHDSIOutcomeOfPregnancy.json",
+      "resourceType" : "ValueSet",
+      "id" : "eHDSIOutcomeOfPregnancy",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIOutcomeOfPregnancy",
+      "version" : "0.2.0"
+    },
+    {
+      "filename" : "ValueSet-eHDSIPackage.json",
+      "resourceType" : "ValueSet",
+      "id" : "eHDSIPackage",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIPackage",
+      "version" : "0.2.0"
+    },
+    {
+      "filename" : "ValueSet-eHDSIPerformerFunction.json",
+      "resourceType" : "ValueSet",
+      "id" : "eHDSIPerformerFunction",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIPerformerFunction",
+      "version" : "0.2.0"
+    },
+    {
+      "filename" : "ValueSet-eHDSIPersonalRelationship.json",
+      "resourceType" : "ValueSet",
+      "id" : "eHDSIPersonalRelationship",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIPersonalRelationship",
+      "version" : "0.2.0"
+    },
+    {
+      "filename" : "ValueSet-eHDSIPregnancyInformation.json",
+      "resourceType" : "ValueSet",
+      "id" : "eHDSIPregnancyInformation",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIPregnancyInformation",
+      "version" : "0.2.0"
+    },
+    {
+      "filename" : "ValueSet-eHDSIPresenceAbsence.json",
+      "resourceType" : "ValueSet",
+      "id" : "eHDSIPresenceAbsence",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIPresenceAbsence",
+      "version" : "0.2.0"
+    },
+    {
+      "filename" : "ValueSet-eHDSIProcedure.json",
+      "resourceType" : "ValueSet",
+      "id" : "eHDSIProcedure",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIProcedure",
+      "version" : "0.2.0"
+    },
+    {
+      "filename" : "ValueSet-eHDSIQuantityUnit.json",
+      "resourceType" : "ValueSet",
+      "id" : "eHDSIQuantityUnit",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIQuantityUnit",
+      "version" : "0.2.0"
+    },
+    {
+      "filename" : "ValueSet-eHDSIRareDisease.json",
+      "resourceType" : "ValueSet",
+      "id" : "eHDSIRareDisease",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIRareDisease",
+      "version" : "0.2.0"
+    },
+    {
+      "filename" : "ValueSet-eHDSIReactionAllergy.json",
+      "resourceType" : "ValueSet",
+      "id" : "eHDSIReactionAllergy",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIReactionAllergy",
+      "version" : "0.2.0"
+    },
+    {
+      "filename" : "ValueSet-eHDSIReferenceRangeAppliesTo.json",
+      "resourceType" : "ValueSet",
+      "id" : "eHDSIReferenceRangeAppliesTo",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIReferenceRangeAppliesTo",
+      "version" : "0.2.0"
+    },
+    {
+      "filename" : "ValueSet-eHDSIReferenceRangeMeaning.json",
+      "resourceType" : "ValueSet",
+      "id" : "eHDSIReferenceRangeMeaning",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIReferenceRangeMeaning",
+      "version" : "0.2.0"
+    },
+    {
+      "filename" : "ValueSet-eHDSIResolutionOutcome.json",
+      "resourceType" : "ValueSet",
+      "id" : "eHDSIResolutionOutcome",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIResolutionOutcome",
+      "version" : "0.2.0"
+    },
+    {
+      "filename" : "ValueSet-eHDSIRoleClass.json",
+      "resourceType" : "ValueSet",
+      "id" : "eHDSIRoleClass",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIRoleClass",
+      "version" : "0.2.0"
+    },
+    {
+      "filename" : "ValueSet-eHDSIRouteofAdministration.json",
+      "resourceType" : "ValueSet",
+      "id" : "eHDSIRouteofAdministration",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIRouteofAdministration",
+      "version" : "0.2.0"
+    },
+    {
+      "filename" : "ValueSet-eHDSISection.json",
+      "resourceType" : "ValueSet",
+      "id" : "eHDSISection",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSISection",
+      "version" : "0.2.0"
+    },
+    {
+      "filename" : "ValueSet-eHDSISeverity.json",
+      "resourceType" : "ValueSet",
+      "id" : "eHDSISeverity",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSISeverity",
+      "version" : "0.2.0"
+    },
+    {
+      "filename" : "ValueSet-eHDSISocialHistory.json",
+      "resourceType" : "ValueSet",
+      "id" : "eHDSISocialHistory",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSISocialHistory",
+      "version" : "0.2.0"
+    },
+    {
+      "filename" : "ValueSet-eHDSIStatusCode.json",
+      "resourceType" : "ValueSet",
+      "id" : "eHDSIStatusCode",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIStatusCode",
+      "version" : "0.2.0"
+    },
+    {
+      "filename" : "ValueSet-eHDSISubstance.json",
+      "resourceType" : "ValueSet",
+      "id" : "eHDSISubstance",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSISubstance",
+      "version" : "0.2.0"
+    },
+    {
+      "filename" : "ValueSet-eHDSISubstitutionCode.json",
+      "resourceType" : "ValueSet",
+      "id" : "eHDSISubstitutionCode",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSISubstitutionCode",
+      "version" : "0.2.0"
+    },
+    {
+      "filename" : "ValueSet-eHDSITelecomAddress.json",
+      "resourceType" : "ValueSet",
+      "id" : "eHDSITelecomAddress",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSITelecomAddress",
+      "version" : "0.2.0"
+    },
+    {
+      "filename" : "ValueSet-eHDSITimingEvent.json",
+      "resourceType" : "ValueSet",
+      "id" : "eHDSITimingEvent",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSITimingEvent",
+      "version" : "0.2.0"
+    },
+    {
+      "filename" : "ValueSet-eHDSIUnit.json",
+      "resourceType" : "ValueSet",
+      "id" : "eHDSIUnit",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIUnit",
+      "version" : "0.2.0"
+    },
+    {
+      "filename" : "ValueSet-eHDSIVaccine.json",
+      "resourceType" : "ValueSet",
+      "id" : "eHDSIVaccine",
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIVaccine",
+      "version" : "0.2.0"
+    }
+  ]
+}

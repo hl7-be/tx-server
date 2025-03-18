@@ -1,0 +1,77 @@
+services:
+  fhirserver:
+    image: ghcr.io/costateixeira/fhirserver:nightly
+    volumes:
+      - ./txcache1:/var/cache/txcache
+      - ./config1:/root/fhirserver/config
+      - ./web_files:/root/fhirserver/web_files      
+    container_name: tx-fhir-be-1
+    expose:
+      - "80"
+    networks:
+      - fhir_network
+
+    # deploy:
+    #   resources:
+    #     limits:
+    #       cpus: '4.0'
+
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:80/r4/metadata"]
+      interval: 2m
+      timeout: 30s
+      retries: 5
+      start_period: 300s
+    environment:
+      - DISPLAY=:99
+      - DAEMON_MODE=-nodaemon   # Use "-daemon" to run as a daemon, "-nodaemon" to run interactively
+    tty: true
+    command: ["bash", "-c", "./start.sh ${DAEMON_MODE}"]
+    restart: unless-stopped
+
+  # fhirserver2:
+  #   image: ghcr.io/costateixeira/fhirserver:nightly
+  #   volumes:
+  #     - ./txcache2:/var/cache/txcache
+  #     - ./config2:/root/fhirserver/config
+  #   container_name: tx-fhir-eu-2
+  #   # ports:
+  #   #   - "44124:44123" # Map port from the host to port in the container
+  #   # deploy:
+  #   #   resources:
+  #   #     limits:
+  #   #       cpus: '4.0'
+
+  #   healthcheck:
+  #     test: ["CMD", "curl", "-f", "http://localhost:80/r4/metadata"]
+  #     interval: 2m
+  #     timeout: 30s
+  #     retries: 5
+  #     start_period: 300s
+  #   environment:
+  #     - DISPLAY=:99
+  #     - DAEMON_MODE=-nodaemon   # Use "-daemon" to run as a daemon, "-nodaemon" to run interactively
+  #   tty: true
+  #   command: ["bash", "-c", "./start.sh ${DAEMON_MODE}"]
+  #   restart: on-failure
+
+
+
+  nginx:
+    image: nginx:latest
+    container_name: tx-nginx-be
+    volumes:
+      - ./nginx:/etc/nginx/conf.d
+      - ./certbot/selfsigned:/etc/nginx/ssl
+    ports:
+      - "80:80"
+      - "443:443"
+    depends_on:
+      - fhirserver
+    networks:
+      - fhir_network
+    restart: unless-stopped
+
+networks:
+  fhir_network:
+    driver: bridge
