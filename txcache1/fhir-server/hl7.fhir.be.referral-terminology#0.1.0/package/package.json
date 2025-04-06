@@ -1,0 +1,25 @@
+{
+  "name" : "hl7.fhir.be.referral-terminology",
+  "version" : "0.1.0",
+  "tools-version" : 3,
+  "type" : "IG",
+  "date" : "20250406165248",
+  "license" : "CC0-1.0",
+  "canonical" : "https://www.ehealth.fgov.be/standards/fhir/referral-terminology",
+  "notForPublication" : true,
+  "url" : "file://C:\\work\\ImplementationGuides\\referral-terminology\\output",
+  "title" : "Referral Prescription - Terminology",
+  "fhirVersions" : ["4.0.1"],
+  "dependencies" : {
+    "hl7.fhir.r4.core" : "4.0.1",
+    "hl7.terminology.r4" : "6.2.0",
+    "hl7.fhir.uv.extensions.r4" : "5.2.0",
+    "hl7.fhir.be.core" : "current",
+    "hl7.fhir.be.core-clinical" : "current"
+  },
+  "directories" : {
+    "lib" : "package",
+    "example" : "example"
+  },
+  "jurisdiction" : "urn:iso:std:iso:3166#BE"
+}

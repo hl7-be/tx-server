@@ -1,0 +1,140 @@
+{
+  "index-version" : 2,
+  "files" : [
+    {
+      "filename" : "ImplementationGuide-hl7.fhir.be.referral-terminology.json",
+      "resourceType" : "ImplementationGuide",
+      "id" : "hl7.fhir.be.referral-terminology",
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/referral-terminology/ImplementationGuide/hl7.fhir.be.referral-terminology",
+      "version" : "0.1.0"
+    },
+    {
+      "filename" : "CodeSystem-be-cs-temp-requested-service-detail.json",
+      "resourceType" : "CodeSystem",
+      "id" : "be-cs-temp-requested-service-detail",
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/referral-terminology/CodeSystem/be-cs-temp-requested-service-detail",
+      "version" : "0.1.0",
+      "content" : "complete"
+    },
+    {
+      "filename" : "CodeSystem-be-cs-temp-requested-service.json",
+      "resourceType" : "CodeSystem",
+      "id" : "be-cs-temp-requested-service",
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/referral-terminology/CodeSystem/be-cs-temp-requested-service",
+      "version" : "0.1.0",
+      "content" : "complete"
+    },
+    {
+      "filename" : "CodeSystem-be-prescription-status-reason.json",
+      "resourceType" : "CodeSystem",
+      "id" : "be-prescription-status-reason",
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/referral/CodeSystem/be-prescription-status-reason",
+      "version" : "0.1.0",
+      "content" : "complete"
+    },
+    {
+      "filename" : "CodeSystem-be-treatment-status-reason.json",
+      "resourceType" : "CodeSystem",
+      "id" : "be-treatment-status-reason",
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/referral/CodeSystem/be-treatment-status-reason",
+      "version" : "0.1.0",
+      "content" : "complete"
+    },
+    {
+      "filename" : "NamingSystem-be-ns-uhmep-short.json",
+      "resourceType" : "NamingSystem",
+      "id" : "be-ns-uhmep-short",
+      "kind" : "identifier"
+    },
+    {
+      "filename" : "NamingSystem-be-ns-uhmep.json",
+      "resourceType" : "NamingSystem",
+      "id" : "be-ns-uhmep",
+      "kind" : "identifier"
+    },
+    {
+      "filename" : "ValueSet-be-vs-annex-81-reason-code.json",
+      "resourceType" : "ValueSet",
+      "id" : "be-vs-annex-81-reason-code",
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/referral-terminology/ValueSet/be-vs-annex-81-reason-code",
+      "version" : "0.1.0"
+    },
+    {
+      "filename" : "ValueSet-be-vs-bodysite-nursing.json",
+      "resourceType" : "ValueSet",
+      "id" : "be-vs-bodysite-nursing",
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/referral-terminology/ValueSet/be-vs-bodysite-nursing",
+      "version" : "0.1.0"
+    },
+    {
+      "filename" : "ValueSet-be-vs-performer-task-status-reason.json",
+      "resourceType" : "ValueSet",
+      "id" : "be-vs-performer-task-status-reason",
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/referral/ValueSet/be-vs-performer-task-status-reason",
+      "version" : "0.1.0"
+    },
+    {
+      "filename" : "ValueSet-be-vs-prescription-status-reason.json",
+      "resourceType" : "ValueSet",
+      "id" : "be-vs-prescription-status-reason",
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/referral/ValueSet/be-vs-prescription-status-reason",
+      "version" : "0.1.0"
+    },
+    {
+      "filename" : "ValueSet-be-vs-referral-category.json",
+      "resourceType" : "ValueSet",
+      "id" : "be-vs-referral-category",
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/referral/ValueSet/be-vs-referral-category",
+      "version" : "0.1.0"
+    },
+    {
+      "filename" : "ValueSet-be-vs-request-intent.json",
+      "resourceType" : "ValueSet",
+      "id" : "be-vs-request-intent",
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/referral/ValueSet/be-vs-request-intent",
+      "version" : "0.1.0"
+    },
+    {
+      "filename" : "ValueSet-be-vs-request-note-type.json",
+      "resourceType" : "ValueSet",
+      "id" : "be-vs-request-note-type",
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/referral-terminology/ValueSet/be-vs-request-note-type",
+      "version" : "0.1.0"
+    },
+    {
+      "filename" : "ValueSet-be-vs-requested-services-nurse-detail.json",
+      "resourceType" : "ValueSet",
+      "id" : "be-vs-requested-services-nurse-detail",
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/referral/ValueSet/be-vs-requested-services-nurse-detail",
+      "version" : "0.1.0"
+    },
+    {
+      "filename" : "ValueSet-be-vs-requested-services-nurse.json",
+      "resourceType" : "ValueSet",
+      "id" : "be-vs-requested-services-nurse",
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/referral/ValueSet/be-vs-requested-services-nurse",
+      "version" : "0.1.0"
+    },
+    {
+      "filename" : "ValueSet-be-vs-task-intent.json",
+      "resourceType" : "ValueSet",
+      "id" : "be-vs-task-intent",
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/referral/ValueSet/be-vs-task-intent",
+      "version" : "0.1.0"
+    },
+    {
+      "filename" : "ValueSet-be-vs-treatment-status-reason.json",
+      "resourceType" : "ValueSet",
+      "id" : "be-vs-treatment-status-reason",
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/referral/ValueSet/be-vs-treatment-status-reason",
+      "version" : "0.1.0"
+    },
+    {
+      "filename" : "StructureMap-be-map-model-referral-prescription.json",
+      "resourceType" : "StructureMap",
+      "id" : "be-map-model-referral-prescription",
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/referral/StructureMap/be-map-model-referral-prescription",
+      "version" : "0.1.0"
+    }
+  ]
+}

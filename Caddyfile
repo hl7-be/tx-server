@@ -1,0 +1,3 @@
+fhir.localhost {
+  reverse_proxy fhirserver:80
+}
