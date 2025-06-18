@@ -12,6 +12,7 @@ More information is available [from the HL7 Europe documentation](https://hl7-eu
 * Optionally, setup https access. See [here](https://hl7-eu.github.io/tx.hl7europe.eu/server/https.html)
 * Download any the terminology cache files from https://storage.googleapis.com/tx-fhir-org into the txcache1/fhir-server
 * run `docker compose up` after optionally adjusting any settings
+* open http://<host>:80 - the server serves /r4 and /r5 by default
 * Create an [issue](./issues) if you need a different package, cache update or release
 
 

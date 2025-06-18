@@ -24,7 +24,6 @@
           "fhir.tx.support.r4",
           "ihe.formatcode.fhir",
           "hl7.fhir.be.terminology#0.1.0",
-          "hl7.fhir.be.referral-terminology#0.1.0",
           "fhir.dicom"
         ],
         "r3" : [
